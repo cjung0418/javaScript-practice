@@ -1,0 +1,25 @@
+/* .container {
+  display: grid;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+} */
+
+body {
+  padding: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+  display: block;
+}
+
+label > div, input {
+  float: left;
+  width: 90vw;
+}
